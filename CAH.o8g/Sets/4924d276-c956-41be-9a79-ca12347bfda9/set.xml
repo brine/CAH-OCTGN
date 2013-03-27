@@ -476,7 +476,7 @@
 <card name="I drink to forget ___." id="7d2f0f22-b05d-4f7a-b878-2bd5177a175a"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
 <card name="I'm sorry professor, but I couldn't complete my homework because of ___." id="2c6d2b54-a7fd-4bd6-a364-bb117eaead3b"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
 <card name="What is Batman's guilty pleasure?" id="58393ec0-b31e-4392-a8b3-4bd6249cbc6c"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
-<card name="This is the way the world ends&#xd;This is the way the world ends&#xd;Not with a bang but with ___." id="788b071a-4663-4747-aa61-f62a502f074f"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="This is the way the world ends&#xd;&#xa;This is the way the world ends&#xd;&#xa;Not with a bang but with ___." id="788b071a-4663-4747-aa61-f62a502f074f"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
 <card name="What's a girl's best friend?" id="b4df1e7c-4039-4c3e-a256-0a288a619177"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
 <card name="TSA guidelines now prohibit ___ on airplanes." id="45036a2a-0841-4f04-a3b4-9038910dcfd8"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
 <card name="___.  That's how I want to die." id="2f120851-fad9-4c26-841d-8c0c59947833"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
