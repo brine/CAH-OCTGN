@@ -3,12 +3,12 @@
   <blocks>
     <block type="text" id="qtext">
       <location x="40" y="40" />
-	  <text color="#FFFFFF" size="35" />
+	  <text color="#000000" size="35" />
 	  <wordwrap height="350" width="300" />
     </block>
     <block type="text" id="atext">
       <location x="40" y="40" />
-	  <text color="#000000" size="35" />
+	  <text color="#FFFFFF" size="35" />
 	  <wordwrap height="350" width="300" />
     </block>
   </blocks>
