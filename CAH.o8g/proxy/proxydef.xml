@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+  <blocks>
+    <block type="text" id="qtext">
+      <location x="40" y="40" />
+	  <text color="#FFFFFF" size="35" />
+	  <wordwrap height="350" width="300" />
+    </block>
+    <block type="text" id="atext">
+      <location x="40" y="40" />
+	  <text color="#000000" size="35" />
+	  <wordwrap height="350" width="300" />
+    </block>
+  </blocks>
+  <template src="proxy/back/w.png" default="True">
+    <matches>
+      <match name="Type" value="A" />
+    </matches>
+    <textblocks>
+      <link block="atext">
+        <property name="Name" />
+      </link>
+    </textblocks>
+  </template>
+  <template src="proxy/back/b.png">
+    <matches>
+      <match name="Type" value="Q" />
+      <match name="Answers" value="1" />
+    </matches>
+    <textblocks>
+      <link block="qtext">
+        <property name="Name" />
+      </link>
+    </textblocks>
+  </template>
+  <template src="proxy/back/b2.png">
+    <matches>
+      <match name="Type" value="Q" />
+      <match name="Answers" value="2" />
+    </matches>
+    <textblocks>
+      <link block="qtext">
+        <property name="Name" />
+      </link>
+    </textblocks>
+  </template>
+  <template src="proxy/back/b3.png">
+    <matches>
+      <match name="Type" value="Q" />
+      <match name="Answers" value="3" />
+    </matches>
+    <textblocks>
+      <link block="qtext">
+        <property name="Name" />
+      </link>
+    </textblocks>
+  </template>
+</templates>

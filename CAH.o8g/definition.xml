@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	id="7148fd28-4595-455f-8d4f-59a1643c27c9" version="1.0.0.0" octgnVersion="3.0.1.32"
+	name="Cards Against Humanity" tags="CAH" description="Cards Against Humanity"
+	setsurl="" gameurl="" authors="brine"
+	markersize="14" iconurl="http://www.timdodgestories.com/thegeeksideoflife/wp-content/uploads/2013/01/Screen-Shot-2013-01-23-at-9.12.07-PM-300x263.png" >
+  <scripts>
+    <script src="scripts/actions.py" />
+  </scripts>
+  <fonts>
+  </fonts>
+  <proxygen definitionsrc="proxy/proxydef.xml">
+  </proxygen>
+  <globalvariables> 
+  </globalvariables>
+  <card back="cards/back.png" front="cards/front.png" width="63" height="88" cornerRadius="2">
+    <property name="Type" type="String" />
+    <property name="Answers" type="Integer" />
+  </card>
+  <table name="Table" visibility="undefined" ordered="False" width="640" height="480" background="background/background.jpg" backgroundStyle="uniformToFill">
+  </table>
+  <player summary="">
+    <hand name="Hand" shortcut="ctrl+H" visibility="me" width="63" height="88" icon="groups/hand.png">
+    </hand>
+    <group name="Questions" visibility="none" width="63" height="88" icon="groups/library.png">
+    </group>
+    <group name="Answers" visibility="none" width="63" height="88" icon="groups/library.png">
+    </group>
+    <group name="Discard" visibility="all" width="63" height="88" icon="groups/graveyard.png">
+    </group>
+  </player>
+  <deck>
+    <section name="Questions" group="Questions" />
+    <section name="Answers" group="Answers" />
+  </deck>
+</game>
