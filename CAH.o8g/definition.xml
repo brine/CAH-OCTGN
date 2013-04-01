@@ -29,8 +29,20 @@
     <group name="Discard" visibility="all" width="63" height="88" icon="groups/graveyard.png">
     </group>
   </player>
+  <shared>
+    <group name="Questions" visibility="none" width="63" height="88" icon="groups/library.png">
+    </group>
+    <group name="Answers" visibility="none" width="63" height="88" icon="groups/library.png">
+    </group>
+    <group name="Discard" visibility="all" width="63" height="88" icon="groups/graveyard.png">
+    </group>
+  </shared>
   <deck>
     <section name="Questions" group="Questions" />
     <section name="Answers" group="Answers" />
   </deck>
+  <sharedDeck>
+    <section name="Questions" group="Questions" />
+    <section name="Answers" group="Answers" />
+  </sharedDeck>
 </game>
