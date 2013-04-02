@@ -18,7 +18,7 @@
     <property name="Answers" type="Integer" />
   </card>
   <table name="Table" visibility="undefined" ordered="False" width="640" height="480" background="background/background.jpg" backgroundStyle="uniformToFill">
-    <cardaction menu="Declare as Favorite" default="True" execute="declare" />
+    <cardaction menu="Finalize Choices / Declare as Favorite (Czar Only)" default="True" execute="finalize" />
     <cardaction menu="I don't understand this card!" execute="lookup" />
     <groupaction menu="Randomly choose Player" execute="random" />
   </table>

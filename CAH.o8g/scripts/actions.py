@@ -38,12 +38,6 @@ def shuffle(group, x = 0, y = 0):
   group.shuffle()
   notify("{} shuffled {}'s {}.".format(me, group.player.name, group.name))
   
-def playq(group, x = 0, y = 0):
-  mute()
-  for card in group.top(1):
-    card.moveToTable(0,0)
-    notify("{} played {}".format(me, card))
-
 def lookup(card, x = 0, y = 0):
   mute()
   openUrl("https://www.google.com/search?btnG=1&pws=0&q={}".format(card.name))
@@ -57,33 +51,81 @@ def random(group, x = 0, y = 0):
 
 selectColor = '#f8359a'
 
-def select(card, x = 0, y = 0):
-  mute()
-  card.highlight = selectColor
-  loadedCards = []
-  activePlayer = None
-  notify("{} selected a card.".format(me))
-  for p in players:
-    if p.isActivePlayer:
-      activePlayer = p
-    highlighted = [c for c in p.hand
-        if c.highlight == selectColor]
-    if len(highlighted) == 0:
-      return
-    if len(highlighted) == 1:
-      for hc in highlighted:
-        n = rnd(0, len(loadedCards))
-        loadedCards.insert(n, hc)
-  position = 1
-  for lc in loadedCards:
-    lc.moveToTable(75*position, 0)
-    lc.setController(activePlayer)
-    position += 1
-  notify("All Answers have been selected.")
-  notify("Card Czar, please choose your favorite!")
+currentQuestion = None
+phase = 0
 
-def declare(card, x = 0, y = 0):
+def playq(group, x = 0, y = 0):
   mute()
-  notify("The Card Czar has chosen {}".format(card))
-  card.moveTo(card.owner.piles['Score Pile'])
-  notify("{} gets the point.".format(card.owner)) 
+  if not me.isActivePlayer:
+    whisper("Only the Card Czar can play a new question.")
+    return
+  global phase
+  if phase != 0:
+    whisper("Cannot start a new Question at this point!")
+    return
+  global currentQuestion
+  if currentQuestion != None:
+    whisper("There's already an active Question!")
+    return
+  for card in group.top(1):
+    card.moveToTable(0,0)
+    rnd(1,10)
+    notify("{} played {}".format(me, card))
+    currentQuestion = card
+  phase = 1
+
+def finalize(card, x = 0, y = 0):
+  mute()
+  global currentQuestion, phase
+  if not me.isActivePlayer:
+    whisper("Only the Card Czar may use this!")
+    return
+  if card.Type == "Q":
+    if phase != 1:
+      whisper("Cannot finalize choices at this time!")
+      return
+    if currentQuestion == None or currentQuestion != card:
+      whisper("You have to run this on the active Question card ({}).".format(currentQuestion))
+      return
+    count = card.Answers
+    tardyness = ""
+    cardpairs = []
+    for p in players:
+      if not p.isActivePlayer:
+        cards = [c._id for c in table if card.owner == p]
+        if len(cards) != count:
+          tardyness += ", {}".format(p)
+        else:
+          cardpairs.append(cards)
+    if len(tardyness) != "":
+      notify("The Card Czar is growing impatient{}.".format(tardyness))
+      return
+    shuffled = []
+    while len(cardpairs) > 0:
+      n = rnd(0, len(cardpairs) - 1)
+      shuffled.append(cardpairs.pop(n))
+    xcount = 0
+    for pair in shuffled:
+      ycount = 0
+      xcount += 75
+      for c in pair:
+       c.setController(me)
+       c.moveToTable(xcount, ycount, False)
+       ycount += 100
+    notify("The Card Czar is ready to make a decision.")
+    phase = 2
+        
+  elif card.Type == "A":
+    if phase != 2:
+      whisper("Cannot choose a favorite Answer at this time!")
+      return
+    if currentQuestion == None or currentQuestion.group != table:
+      whisper("Cannot find the active Question card...?")
+      return
+    notify("The Card Czar has chosen {}".format(card))
+    currentQuestion.moveTo(card.owner.piles['Score Pile'])
+    notify("{} gets the Awesome Point.".format(card.owner))
+    for c in table:
+      c.moveTo(c.owner.Discard)
+    currentQuestion = None
+    phase = 0
