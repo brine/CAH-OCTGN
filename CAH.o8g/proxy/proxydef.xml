@@ -3,16 +3,17 @@
   <blocks>
     <block type="text" id="qtext">
       <location x="20" y="20" />
-	  <text color="#FFFFFF" size="35" />
-	  <wordwrap height="400" width="335" />
+      <text color="#FFFFFF" size="35" />
+      <wordwrap height="400" width="335" />
     </block>
     <block type="text" id="atext">
       <location x="20" y="20" />
-	  <text color="#000000" size="35" />
-	  <wordwrap height="400" width="335" />
+      <text color="#000000" size="35" />
+      <wordwrap height="400" width="335" />
     </block>
   </blocks>
-  <template src="proxy/back/w.png" default="True">
+
+  <template src="proxy/w.png" default="True">
     <matches>
       <match name="Type" value="A" />
     </matches>
@@ -22,10 +23,9 @@
       </link>
     </textblocks>
   </template>
-  <template src="proxy/back/b.png">
+  <template src="proxy/b.png">
     <matches>
       <match name="Type" value="Q" />
-      <match name="Answers" value="1" />
     </matches>
     <textblocks>
       <link block="qtext">
@@ -33,10 +33,9 @@
       </link>
     </textblocks>
   </template>
-  <template src="proxy/back/b2.png">
+  <template src="proxy/b2.png">
     <matches>
       <match name="Type" value="Q" />
-      <match name="Answers" value="2" />
     </matches>
     <textblocks>
       <link block="qtext">
@@ -44,10 +43,9 @@
       </link>
     </textblocks>
   </template>
-  <template src="proxy/back/b3.png">
+  <template src="proxy/b3.png">
     <matches>
       <match name="Type" value="Q" />
-      <match name="Answers" value="3" />
     </matches>
     <textblocks>
       <link block="qtext">

@@ -18,23 +18,40 @@
     <property name="Answers" type="Integer" />
   </card>
   <table name="Table" visibility="undefined" ordered="False" width="640" height="480" background="background/background.jpg" backgroundStyle="uniformToFill">
+    <cardaction menu="Declare as Favorite" default="True" execute="declare" />
+    <cardaction menu="I don't understand this card!" execute="lookup" />
+    <groupaction menu="Randomly choose Player" execute="random" />
   </table>
-  <player summary="">
+  <player summary="H:{#Hand} S:{#Score Pile}">
     <hand name="Hand" shortcut="ctrl+H" visibility="me" width="63" height="88" icon="groups/hand.png">
+      <cardaction menu="Select Card" default="True" execute="select" />
+      <cardaction menu="Never Have I Ever (discard)" shortcut="del" execute="discard" />
     </hand>
-    <group name="Questions" visibility="none" width="63" height="88" icon="groups/library.png">
+    <group name="Questions" visibility="none" width="63" height="88" icon="groups/black.png">
+      <groupaction menu="Shuffle" execute="shuffle" />
+      <groupaction menu="Play a Question" default="True" execute="playq" />
     </group>
-    <group name="Answers" visibility="none" width="63" height="88" icon="groups/library.png">
+      <group name="Answers" visibility="none" width="63" height="88" icon="groups/white.png">
+      <groupaction menu="Shuffle" execute="shuffle" />
+      <groupaction menu="Draw 1" shortcut="ctrl+d" execute="draw" />
+      <groupaction menu="Refill hand to 10" shortcut="ctrl+shift+d" execute="drawfill" />
     </group>
-    <group name="Discard" visibility="all" width="63" height="88" icon="groups/graveyard.png">
+    <group name="Discard" visibility="all" collapsed="True" width="63" height="88" icon="groups/discard.png">
+    </group>
+    <group name="Score Pile" visibility="all" collapsed="True" width="63" height="88" icon="groups/score.png">
     </group>
   </player>
   <shared>
-    <group name="Questions" visibility="none" width="63" height="88" icon="groups/library.png">
+    <group name="Questions" visibility="none" width="63" height="88" icon="groups/black.png">
+      <groupaction menu="Play a Question" default="True" execute="playq" />
+      <groupaction menu="Shuffle" execute="shuffle" />
     </group>
-    <group name="Answers" visibility="none" width="63" height="88" icon="groups/library.png">
+    <group name="Answers" visibility="none" width="63" height="88" icon="groups/white.png">
+      <groupaction menu="Shuffle" execute="shuffle" />
+      <groupaction menu="Draw 1" shortcut="ctrl+d" execute="draw" />
+      <groupaction menu="Refill hand to 10" shortcut="ctrl+shift+d" execute="drawfill" />
     </group>
-    <group name="Discard" visibility="all" width="63" height="88" icon="groups/graveyard.png">
+    <group name="Discard" visibility="all" width="63" height="88" icon="groups/discard.png">
     </group>
   </shared>
   <deck>
