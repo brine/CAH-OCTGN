@@ -52,27 +52,66 @@ def random(group, x = 0, y = 0):
 selectColor = '#f8359a'
 
 currentQuestion = None
-phase = 0
 
 def playq(group, x = 0, y = 0):
   mute()
   if not me.isActivePlayer:
     whisper("Only the Card Czar can play a new question.")
     return
-  global phase
+  phase = int(getGlobalVariable("phase"))
   if phase != 0:
     whisper("Cannot start a new Question at this point!")
     return
-  global currentQuestion
-  if currentQuestion != None:
+  q = getGlobalVariable("q")
+  if q != "":
     whisper("There's already an active Question!")
     return
   for card in group.top(1):
     card.moveToTable(0,0)
     rnd(1,10)
     notify("{} played {}".format(me, card))
-    currentQuestion = card
-  phase = 1
+    setGlobalVariable("q", str(card._id))
+    setGlobalVariable("phase", "1")
+
+def select(card, x = 0, y = 0):
+  mute()
+  if me.isActivePlayer:
+    whisper("Is it fair for the Card Czar to answer his own question?")
+    return
+  phase = int(getGlobalVariable("phase"))
+  if phase != 1:
+    whisper("This is a really inappropriate time to play an answer.")
+    return
+  if card.highlight != None:
+    card.highlight = None
+    notify("{} can't make up his mind.".format(me))
+  else:
+    card.highlight = selectColor
+    notify("{} selected a card.".format(me))
+  loadedCards = []
+  activePlayer = None
+  q = Card(int(getGlobalVariable("q")))
+  if not q in table:
+    notify("ERROR Question not found: {}".format(q))
+    return
+  for p in players:
+    if p.isActivePlayer:
+      activePlayer = p
+    highlighted = [c for c in p.hand
+        if c.highlight == selectColor]
+    if len(highlighted) == q.Answers:
+      for hc in highlighted:
+        n = rnd(0, len(loadedCards))
+        loadedCards.insert(n, hc)
+    else:
+      return
+  position = 1
+  for lc in loadedCards:
+    lc.moveToTable(75*position, 0)
+    lc.setController(activePlayer)
+    position += 1
+  notify("All Answers have been selected.")
+  notify("Card Czar, lay upon thee with divine judgement!")
 
 def finalize(card, x = 0, y = 0):
   mute()
@@ -114,7 +153,6 @@ def finalize(card, x = 0, y = 0):
        ycount += 100
     notify("The Card Czar is ready to make a decision.")
     phase = 2
-        
   elif card.Type == "A":
     if phase != 2:
       whisper("Cannot choose a favorite Answer at this time!")
