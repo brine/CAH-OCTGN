@@ -5,10 +5,10 @@ def draw(group, x = 0, y = 0):
 	mute()
 	if len(me.Answers) == 0:
 		if len(shared.Answers) == 0: return
-		shared.Answers[0].moveTo(me.hand)
+		shared.Answers[rnd(0,len(shared.Answers) - 1)].moveTo(me.hand)
 		notify("{} drew 1 Answer. (shared)".format(me))
 	else:
-		me.Answers[0].moveTo(me.hand)
+		me.Answers[rnd(0,len(me.Answers) - 1)].moveTo(me.hand)
 		notify("{} drew 1 Answer.".format(me))
 
 def drawfill(group, x = 0, y = 0):
@@ -16,11 +16,15 @@ def drawfill(group, x = 0, y = 0):
 	count = 10 - len(me.hand)
 	if len(me.Answers) < count:
 		if len(shared.Answers) < count: return
-		for card in shared.Answers.top(count): card.moveTo(me.hand)
+		for loop in range(0,count):
+			card = shared.Answers[rnd(0,len(shared.Answers) - 1)]
+			card.moveTo(me.hand)
 		notify("{} drew to 10 (+{}) Answers. (shared)".format(me, count))
 	else:
-		for card in me.Answers.top(count): card.moveTo(me.hand)
-		notify("{} drew to 10 (+{}) Answers. (shared)".format(me, count))
+		for loop in range(0,count):
+			card = me.Answers[rnd(0,len(me.Answers) - 1)]
+			card.moveTo(me.hand)
+		notify("{} drew to 10 (+{}) Answers.".format(me, count))
 
 def discard(card, x = 0, y = 0):
 	mute()
@@ -32,11 +36,6 @@ def discard(card, x = 0, y = 0):
 		notify("{} confesses ignorance for not understanding {} (shared)".format(me, card))
 	else:
 		notify("{} confesses ignorance for not understanding {}".format(me, card))
-
-def shuffle(group, x = 0, y = 0):
-	mute()
-	group.shuffle()
-	notify("{} shuffled {}'s {}.".format(me, group.player.name, group.name))
 	
 def lookup(card, x = 0, y = 0):
 	mute()
@@ -70,11 +69,11 @@ def playq(group, x = 0, y = 0):
 		qgroup = shared.Questions
 	else:
 		qgroup = me.Questions
-	for card in qgroup.top(1):
-		card.moveToTable(0,0)
-		rnd(1,10)
-		notify("{}'s new question: {}".format(me, card))
-		currentQuestion = card
+	card = qgroup[rnd(1,len(qgroup))]
+	card.moveToTable(0,0)
+	rnd(1,10)
+	notify("{}'s new question: {}".format(me, card))
+	currentQuestion = card
 
 def select(card, x = 0, y = 0):
 	mute()
