@@ -26,6 +26,7 @@
   <template src="proxy/b.png">
     <matches>
       <match name="Type" value="Q" />
+      <match name="Answers" value="1" />
     </matches>
     <textblocks>
       <link block="qtext">
@@ -36,6 +37,7 @@
   <template src="proxy/b2.png">
     <matches>
       <match name="Type" value="Q" />
+      <match name="Answers" value="2" />
     </matches>
     <textblocks>
       <link block="qtext">
@@ -46,6 +48,7 @@
   <template src="proxy/b3.png">
     <matches>
       <match name="Type" value="Q" />
+      <match name="Answers" value="3" />
     </matches>
     <textblocks>
       <link block="qtext">
