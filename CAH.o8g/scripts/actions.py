@@ -74,6 +74,8 @@ def playq(group, x = 0, y = 0):
 	rnd(1,10)
 	notify("{}'s new question: {}".format(me, card))
 	currentQuestion = card
+	for c in me.hand:
+		c.highlight = None
 
 def select(card, x = 0, y = 0):
 	mute()
