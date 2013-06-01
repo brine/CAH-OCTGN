@@ -86,10 +86,13 @@ def select(card, x = 0, y = 0):
 	else:
 		card.highlight = selectColor
 		notify("{} selected a card.".format(me))
-		
+
+owners = {}
+annoyingReminder = True
+
 def finalize(card, x = 0, y = 0):
 	mute()
-	global currentQuestion
+	global currentQuestion, owners, annoyingReminder
 	if not me.isActivePlayer:
 		whisper("Only the Card Czar may use this!")
 		return
@@ -119,14 +122,18 @@ def finalize(card, x = 0, y = 0):
 		if tardyness != "":
 			notify("The Card Czar is growing impatient{}.".format(tardyness))
 			return
+		if table.isTwoSided() and annoyingReminder:
+			notify("This game works better when 'Use Two-Sided Table' is turned off.  Next time, don't forget to uncheck it!")
+			annoyingReminder = False
 		xcount = 0
 		for answerList in loadedCards:
 			ycount = 0
 			xcount += 75
 			for c in answerList:
-			 c.moveToTable(xcount, ycount, False)
-			 c.setController(me)
-			 ycount += 100
+				owners[c] = c.controller
+				c.moveToTable(xcount, ycount, False)
+				c.setController(me)
+				ycount += 100
 		notify("Card Czar, lay upon us your divine judgement!")
 		currentQuestion = card
 	elif card.Type == "A":
@@ -134,8 +141,8 @@ def finalize(card, x = 0, y = 0):
 			whisper("Cannot find the active Question card...?")
 			return
 		notify("The Card Czar has chosen {}".format(card))
-		currentQuestion.moveTo(card.owner.piles['Score Pile'])
-		notify("{} gets the Awesome Point.".format(card.owner))
+		currentQuestion.moveTo(owners[card].piles['Score Pile'])
+		notify("{} gets the Awesome Point.".format(owners[card]))
 		for c in table:
 			c.moveTo(c.owner.Discard)
 		currentQuestion = None
