@@ -549,5 +549,170 @@
 <card name="What never fails to liven up the party?" id="f5e51d5e-5612-4bf5-adb0-2e7c915424df"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
 <card name="What's the new fad diet?" id="738254a2-6951-4b02-a057-07554c9ca11f"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
 <card name="Major League Baseball has banned ___ for giving players an unfair advantage." id="cc9e67f5-d28f-48a5-82cf-4f32beea74ec"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+
+<card name="(I am doing Kegels right now.)" id="c0d9d3bc-b0aa-47c9-8abb-4bdd6c61b039"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="2 Girls 1 Cup." id="2558fecc-e2a5-414d-9f5a-fac64eccffbd"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="50,000 volts straight to the nipples." id="7232990c-b4e9-4522-872e-0284b30a5435"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A bitch slap." id="8979c772-ff29-4535-97ce-4ff7b1425543"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A bucket of fish heads." id="d7555326-b12b-44d7-9073-7415da5ce412"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A cartoon camel enjoying the smooth, refreshing taste of a cigarette." id="9e627849-8511-4865-9063-d811880e2677"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A grande sugar-free iced soy caramel macchiato." id="ec13e26e-c2cd-44b8-a5d3-91997bab3420"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A LAN party." id="0459b732-3320-4d49-a278-794d4142a810"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A live studio audience." id="524dcccc-b597-4deb-a039-812945d6e443"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A micropig wearing a tiny raincoat and booties." id="1502a07c-42c0-4913-b37e-b5c7323b11cd"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A neglected Tamagotchi." id="5470cde3-a9b4-4d02-b862-9f33afec9b55"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A pyramid of severed heads." id="0a625d9e-60cb-4eb6-b258-fc378937404e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A spastic nerd." id="527faad6-1bba-4167-9b92-7773d6b470fa"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A subscription to Men's Fitness." id="3bac52bf-3507-45e2-bde6-151f6835252d"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A tribe of warrior women." id="df962012-b352-4768-a7d3-567fe7a8f839"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A vajazzled vagina." id="e6142aeb-a725-4233-b59f-97f7b52a132a"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A wheelchair death race." id="d6fc5fb7-f3dc-431e-bdb1-5608dc243ccd"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A wisecracking terrorist." id="4b666a64-79f6-4939-bf02-13759a63f584"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Abstinence." id="31cdbd84-886b-4869-b8cd-52fe4560098e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Accidentally slipping yourself a roofie." id="265c8ef6-3b8a-426a-97d3-9153c7b5fdc3"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Adult Friendfinder." id="f3f1bf12-c3c1-4e0d-8e52-f295da72fb01"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Advice from a wise, old black man." id="6c7660ff-1eeb-4a59-8f00-278660b8f635"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="African children." id="085896f9-085b-4ba6-976c-fec980314acd"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="America." id="63d5df74-d709-4c91-bdbe-063f7070f66c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="An M16 assault rifle." id="de9e497c-ab40-48f1-be62-9ecd9dfd2c66"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="An oversized lollipop." id="ea61e4c1-9718-4771-98a7-2b70e09dced2"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="An ugly face." id="dd8356ee-1212-48ab-b2dc-1e6da4ca8025"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="An uppercut." id="4dc904e0-af65-47c6-a2c5-0bf3048798ce"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Bananas in Pajamas." id="99506fb3-8664-4548-beed-40a18b69c2e9"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Battlefield amputations." id="f6bbeb4c-8812-4e3d-82ac-b9ad9a011497"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Becoming a blueberry." id="e0ca461d-64f7-4bbe-a953-b57612d7895a"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Being fat and stupid." id="f5295155-076f-4edc-87e8-31705e6b9b10"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Bestiality." id="c47f3e0b-b46a-474e-bb43-9a2174b570d1"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Bond, James Bond." id="cb447c36-f029-4bc1-8770-af0d711b5f32"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Bono." id="80436b94-ca41-43dd-833a-d138064c64a1"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Brown people." id="1fc78f8c-4fb4-4222-bcc3-4b2015af25e2"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Canned tuna with extra dolphin." id="f4ea7297-7cb3-4e33-8841-1d4b0a2fb3cc"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Capturing Newt Gingrich and forcing him to dance in a monkey suit." id="9a9e8d7e-2343-4c98-acf4-02dfb14bad16"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Chunks of dead prostitute." id="3af55fc3-eee5-4f4a-9a60-6fa6a337d78b"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Consensual sex." id="818a353b-474c-4cf7-b1a1-29871c921c86"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Cookie Monster devouring the Eucharist wafers." id="89bb79d6-7ae5-40b8-998a-42702bdf7ead"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Creed." id="1d82bf25-bbf3-42e8-a39f-e99e2355a78a"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Crucifixion." id="f245fd9b-7cf2-45d4-bcc5-f7088df24b9a"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Crumpets with the Queen." id="abb68dea-0928-4b53-9bd1-d8e0d416626e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Dave Matthews Band." id="c2aaba18-b5bb-4190-96b7-cbc37d11db9e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Destroying the evidence." id="e6348246-8b28-4de3-844c-4e482c184cbf"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Donald Trump." id="7e4386c1-8b81-4835-99d6-0b3d0cc81eaf"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Douchebags on their iPhones." id="179b5e2d-4dea-4e5f-a66f-8b97624e8d2f"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Dr. Martin Luther King, Jr." id="a52c2e68-873b-4496-b1cb-4e3668eaed4a"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Drum circles." id="35deaa82-9375-442d-baf9-7ad632e2cbe6"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Eastern European Turbo-Folk music." id="96f7e002-2180-4fa9-be3f-93c3cdd4bfd6"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Eating too much of a lamp." id="5e0f007a-0cb4-46fa-8064-8a270cf502fe"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Electricity." id="c01f85e7-e675-4f66-8a2c-2468b477568c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Existentialists." id="18f34e20-d1c9-4c91-9246-aa69be3ed538"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Extremely tight pants." id="f8b2a41b-e5f9-479f-886a-3df8721ca18d"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Faith healing." id="d2f9edb7-e6d1-4efc-bfc8-72f8d6c8f2f3"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="FALCON PUNCH!!!" id="20dabe28-213b-43fb-aeb5-9499c4288443"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Farting into your petticoats and wafting it at Lord Gregory." id="8a3ae5bd-6112-4163-9ff3-93be42250178"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Filling Sean Hannity with helium and watching him float away." id="766d2591-23c6-4bbb-b98c-8810ed73e386"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Flavored condoms." id="8876abf4-6053-434c-8caa-ecb62d69ff63"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Four Loko." id="1c95fc75-f2a2-4e9b-8e97-84a4b5effd9e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Front butt." id="6909b24b-5dfe-4ef4-9e9d-52b163775a69"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Funky fresh rhymes." id="a2e883a2-8ec1-4029-a592-7e48fcce100f"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Garth Brooks." id="1ee27107-f022-416f-aa06-2c83722f2c30"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Gary Coleman." id="c8d73c69-2ca4-48ba-971e-c991cf0d7d45"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Getting married, having a few kids, buying some stuff, retiring to Florida, and dying." id="7c44bc9b-cc86-4767-bc1f-691228420e58"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Girls who shouldn't go wild." id="65555085-3540-4265-bb1c-f4ca824d345a"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Glenn Beck." id="6f403954-93ac-4dd2-bd9b-c95ab6010e3b"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Goats eating coins." id="4ac3c200-c4ac-4fa7-8abe-45d5b49f3a63"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Growing a pair." id="65c432c4-c504-4813-a0ef-ae288d6eca10"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Have some more kugel." id="08f17780-3815-4ccb-bf1a-b5bc2b3b1364"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Heath Ledger." id="5fe9c5a7-e017-4557-a2d8-960f0cd4e3b4"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Helplessly giggling at the mention of Hutus and Tutsis." id="1a29aa95-a66b-47d5-96d5-e489b301959a"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Her Majesty, Queen Elizabeth II." id="44280507-73fd-45f4-b577-36e68da4e241"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Hospice care." id="afc96734-f9e6-4fab-9bfb-019404c7e36a"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Hunting accidents." id="65189e61-3b24-4428-8c6b-f1d5a12323e6"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="I'm friends with your dad on Facebook." id="ff5f1f11-8e3d-41e0-b791-21b2af30b12c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Impotence." id="c71a2ba9-e55c-4bb7-a727-48e4a560aaee"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Improvised explosive devices." id="7e8bacfd-2ad2-46ea-a7e9-5dca8b3922fb"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Irritable Bowel Syndrome." id="3a4563bc-2843-4d4a-a497-4a2bc9b6dd4b"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Keeping Christ in Christmas." id="544b54f6-5631-4a40-b06f-9af525b697b2"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Kibbles 'n Bits." id="e9524fe2-4fbc-4f11-a45f-61e4c8e0868b"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Letting yourself go." id="3a029a24-57ed-4334-b170-62da7e5e8ba9"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Mad cow disease." id="e82f9092-a3aa-4a5e-91de-cc0ed9d57f2d"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Making sex at her." id="17202a86-4e66-4abd-82d9-3791c2e90e41"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Marky Mark and the Funky Bunch." id="4bf698a8-d58c-45d4-bb51-adb0800d4430"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Martha Stewart." id="e68ec056-1655-4340-859b-caafc3bf738e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Menstrual rage." id="a3c18f9d-205c-4125-ba49-dacf244fa427"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Mistaking a retarded person for someone who's merely deaf." id="589fbb10-97b2-4040-89c0-6ff1a227da99"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Mountain Dew Code Red." id="9082fc79-7082-4c3e-b835-6a0c60c96ab2"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Mr. Snuffleupagus." id="eb0dcf08-1003-4122-ae77-17c91f238f22"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Muzzy." id="5b2923f7-e428-41a8-ad17-742d338a893c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="My humps." id="98f6e4f3-8a5a-4b43-acf9-fdf551b538ec"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Nip slips." id="22817407-ddbc-4190-9e02-242989870ff4"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Not wearing pants." id="bda4858b-ee8f-4cba-9a22-d54a20632127"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="One trillion dollars." id="77a9cfe4-ca7d-4159-8e07-65d77382eda8"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Paris Hilton." id="32d5e9af-6c74-412d-83b1-9ca11dd4de1a"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Passive-agression." id="675d9761-01b1-4d87-849e-4a2f35da0142"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="PCP." id="986cc174-ffea-4a22-8236-cea553cfa7cd"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Peanut Butter Jelly Time." id="73379711-f735-47e9-b833-410f24f97d9e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="People who smell their own socks." id="21523167-b453-4a40-8ad9-25010a0adce5"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Pooping in the soup." id="9dafe6c3-ca23-4e93-9846-ae76f641ca99"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Poopy diapers." id="d7109b3b-35cd-4d02-9b6e-f9ff9d66af5e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Popped collars." id="5d5d33d1-6262-4280-a215-7f46a9e2c2aa"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Prosti-tots." id="195a0f00-45aa-44a9-b161-352966cd6a02"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Rehab." id="a9ff5737-9b34-4a08-bf6a-3e44657fdfda"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Ring Pops." id="9af916a2-f48a-43a8-b194-f34e69d3981e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Rip Torn dropkicking anti-Semitic lesbians." id="d0f6ca19-f9ab-405b-af78-467585418a04"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Robbing a sperm bank." id="419a73b1-d7b7-47d4-bc28-b6ca2b4ad074"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Rush Limbaugh's soft, shitty body." id="b9963ea7-6b58-4dd9-82d5-b92ec089d5e2"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Shiny objects." id="6dc93470-5fe7-4a0b-9080-f36cdb7212ee"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Shorties and blunts." id="0dfc9ce0-936d-4b03-9a33-38d2cb38b834"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Showing up to an orgy for the food." id="9531e99f-667c-46a3-9cb0-3c95708be223"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Silence." id="91f5e87b-bdd0-4664-b303-84eaf1d78ae9"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Sipping artificial popcorn butter." id="4e2d1b5b-6662-43c4-a310-7adf369f0365"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Sobbing into a Hungry-Man Frozen Dinner." id="0e84b80e-3602-4bf3-9945-2c1a1b43401c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Some god-damn peace and quiet." id="3189f74f-c9af-42e2-bcda-db6dd44eba08"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Stalin." id="40b5f8f5-eb22-4bc7-822e-6e1d0c0b152e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Steve Irwin." id="3b0458ff-c447-4df2-ae49-1a12ec6da8e1"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Stormtroopers." id="7c175cf9-3451-4148-88ae-73ce9b03a4b7"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Stunt doubles." id="a1ccd29f-6ee0-429f-9aaf-ed6f126e6064"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Substitute teachers." id="30c6c5c5-fdb9-4add-8b8a-090841ef3ae0"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Sucking some dicks to not get drafted." id="cfdaf3aa-1640-4b40-af91-90d9b9ea2681"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Synergistic management solutions." id="6a551f9e-88ff-49cf-9c62-574196439e65"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="That one gay Teletubby." id="3e5c8e4e-7cb1-4f10-a4d4-b52a5ec38979"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="That thing that electrocutes your abs." id="9c0c197b-587b-44e1-815f-18d377648255"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The art of seduction." id="443c5a68-7737-496e-b2f4-9735296cb61c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Boy Scouts of America." id="6879fc2e-db91-4fa1-af78-3743d02b1228"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The deformed." id="b11083df-4dd7-45c5-9df8-9ce55854d505"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Devil Himself." id="95539893-8612-43ef-b5a0-98bd85b08050"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The drama club." id="13b6b7f5-5d7e-4df3-80e0-b8b9c5f9d675"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The entire Mormon Tabernacle Choir." id="f6500e9f-7986-416d-bead-c887c40654ce"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The female orgasm." id="eecc2098-b7a6-4c94-9b49-0806206409d4"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Great Depression." id="8894f664-0d81-4949-ab0e-bea7b567e738"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The invisible hand." id="dcca6e45-4b70-48ee-b7bb-65b84848e119"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The light of a billion suns." id="bfd75b3b-b5a4-42fe-94f5-72520545c3ca"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The penny whistle solo from &quot;My Heart Will Go On&quot;." id="957a6e36-7960-49e2-b670-e5b67e2e805e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The People's Elbow." id="00ab6b82-b96b-4c7d-bc25-e92fe6086514"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The plot of a Michael Bay movie." id="6cff926d-b77f-45c1-b007-73115b34efb2"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Red Menace." id="501f870d-e76f-4b7b-8053-255f7af2c1d6"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Superdome." id="6e292127-4f23-48e6-b7a6-6bbfa4cd39cf"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Thong Song." id="8978a6fe-4e43-4e71-8c2b-f5011a64b060"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="This answer is postmodern." id="fcb51db3-d38a-42a0-a60b-7a086ab7a50c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Those times when you get sand in your vagina." id="bfefe4b6-cf37-4744-b882-0b696cf88fe5"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Throwing a virgin into a volcano." id="cf9cd700-9603-416b-b42d-4f6bcd294f32"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Tickle Me Elmo." id="9995a0c3-2711-4bc6-9550-ae0873596161"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Tickling Sean Hannity, even after he tells you to stop." id="91f8de7e-c778-455e-8c6f-fe83215fcf4c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Tiger Woods." id="2e4e5bbb-cfc3-4ccc-b58c-a1a707d877a2"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Twinkies." id="97dddeec-1a6b-4686-8ca6-a9c05ff6066b"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Used panties." id="caf45ba3-7f94-4f84-b910-c174055c7042"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Wet dreams." id="b1be0b98-56ea-425a-935e-b65a66be1335"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Will Smith." id="5ced630f-adbe-492f-80cc-70c41c00384e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Daddy, why is Mommy crying?" id="7cb71502-89c8-4838-a0ee-582f770e0a51"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="Due to a PR fiasco, Walmart no longer offers ___." id="086ab559-1a03-49d3-b536-eaff70399b10"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="Here is the church&#xd;&#xa;Here is the steeple&#xd;&#xa;Open the doors&#xd;&#xa;And there is ___." id="154cc413-7d99-490c-b5bf-d95d79666967"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="How did I lose my virginity?" id="ab342262-283e-44ff-b99c-84d5aafc0774"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="I wish I hadn't lost the instruction manual for ___." id="32a4e15e-7542-44b5-bffb-69c70bc048cb"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="In his new summer comedy, Rob Schneider is ___ trapped in the body of ___." id="65000cb3-48bd-492c-8fe4-1a35e0721438"><property name="Type" value="Q" /><property name="Answers" value="2" /></card>
+<card name="It’s a pity that kids these days are all getting involved with ___." id="f1a7e79d-2cad-49c6-9871-91e88491b646"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="Life was difficult for cavemen before ___." id="296602ea-7b34-4e8a-92a7-04dc483cea90"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="Sorry everyone, I just ___." id="960bd642-7a56-416d-8437-b7ba886dd0ad"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="The U.S. has begun airdropping ___ to the children of Afghanistan." id="36c0d017-536e-4188-9135-dbe15520687e"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="When I'm in prison, I'll have ___ smuggled in." id="249c62ea-e0bd-4d5c-a0eb-e1e921e89e91"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="Who stole the cookies from the cookie jar?" id="dd92ca21-48e8-4a33-8666-a8a6a1f6ee13"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
 </cards>
 </set>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	id="7148fd28-4595-455f-8d4f-59a1643c27c9" version="1.0.3.1" octgnVersion="3.1.0.62"
+	id="7148fd28-4595-455f-8d4f-59a1643c27c9" version="1.0.3.2" octgnVersion="3.1.0.62"
 	name="Cards Against Humanity" tags="CAH" description="A party game for horrible people."
 	setsurl="" gameurl="https://github.com/brine/CAH-OCTGN" authors="brine"
 	markersize="14" iconurl="https://raw.github.com/brine/CAH-OCTGN/master/CAH.o8g/cards/logo.png" >

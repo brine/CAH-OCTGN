@@ -101,5 +101,8 @@
 <card name="Before ___, all we had was ___." id="1abc9962-5d0f-49ef-b524-87f164531f27"><property name="Type" value="Q" /><property name="Answers" value="2" /></card>
 <card name="Tonight on 20/20: What you don't know about ___ could kill you." id="08f539d5-2f8b-48f8-8ede-86fb4c436dbf"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
 <card name="You haven't truly lived until you've experienced ___ and ___ at the same time." id="91a5fa59-5ae3-472c-ad8d-03511da2d5c6"><property name="Type" value="Q" /><property name="Answers" value="2" /></card>
+
+<card name="Crushing Mr. Peanut's brittle body." id="f432906e-e426-480c-8af3-d24c6dc54156"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Dennis the Menace." id="c4d4d6bb-988b-4069-9bce-48b90f11c7e4"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
 </cards>
 </set>
