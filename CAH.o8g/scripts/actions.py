@@ -71,6 +71,8 @@ def playq(group, x = 0, y = 0):
 		qgroup = me.Questions
 	card = qgroup[rnd(1,len(qgroup))]
 	card.moveToTable(0,0)
+    if card.controller != me:
+        card.setController(me) ## apparently global decks retain the original person who loaded the deck as controller
 	rnd(1,10)
 	notify("{}'s new question: {}".format(me, card))
 	currentQuestion = card
