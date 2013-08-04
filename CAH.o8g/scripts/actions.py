@@ -92,11 +92,11 @@ def playq(group, x = 0, y = 0):
 def select(card, x = 0, y = 0):
     mute()
     if me.isActivePlayer:
-        whisper("Is it fair for the Card Czar to answer his own question?")
+        whisper("Is it fair for the Card Czar to answer their own question?")
         return
     if card.highlight != None:
         card.highlight = None
-        notify("{} can't make up his mind.".format(me))
+        notify("{} can't make up their mind.".format(me))
     else:
         card.highlight = selectColor
         notify("{} selected a card.".format(me))
