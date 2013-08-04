@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	id="7148fd28-4595-455f-8d4f-59a1643c27c9" version="1.0.4.0" octgnVersion="3.1.0.62"
+	id="7148fd28-4595-455f-8d4f-59a1643c27c9" version="1.0.4.1" octgnVersion="3.1.0.62"
 	name="Cards Against Humanity" tags="CAH" description="A party game for horrible people."
 	setsurl="http://octgn.gamersjudgement.com/wordpress/cah/" gameurl="http://octgn.gamersjudgement.com/wordpress/cah/" authors="brine"
 	markersize="14" iconurl="https://raw.github.com/brine/CAH-OCTGN/master/CAH.o8g/cards/logo.png" >
@@ -14,6 +14,7 @@
   <globalvariables>
   <globalvariable name="phase" value="0" />
   <globalvariable name="q" value="" />
+  <globalvariable name="rando" value="False" />
   </globalvariables>
   <card back="cards/back.png" front="cards/front.png" width="63" height="88" cornerRadius="2">
     <property name="Type" type="String" />
@@ -24,6 +25,7 @@
     <cardaction menu="I don't understand this card!" execute="lookup" />
     <groupaction menu="Play a new Question" execute="playq" />
     <groupaction menu="Randomly choose Player" execute="random" />
+	<groupaction menu="Activate/Deactivate Rando Cardrissian" execute="rando" />
   </table>
   <player summary="H:{#Hand} S:{#Score Pile}">
     <hand name="Hand" shortcut="ctrl+H" visibility="me" width="63" height="88" icon="groups/hand.png">
@@ -51,6 +53,8 @@
       <groupaction menu="Refill hand to 10" shortcut="ctrl+shift+d" execute="drawfill" />
     </group>
     <group name="Discard" visibility="all" width="63" height="88" icon="groups/discard.png">
+    </group>
+    <group name="Score Pile" visibility="all" collapsed="True" width="63" height="88" icon="groups/score.png">
     </group>
   </shared>
   <deck>

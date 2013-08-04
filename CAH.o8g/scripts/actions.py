@@ -48,6 +48,16 @@ def random(group, x = 0, y = 0):
     n = rnd(0, playercount)
     notify("{} randomly selected {}.".format(me, players[n].name))
 
+def rando(group, x = 0, y = 0):
+    mute()
+    randoStatus = getGlobalVariable("rando")
+    if randoStatus == "False":
+        notify("{} invites Rando Cardrissian to the party.".format(me))
+        setGlobalVariable("rando", "True")
+    else:
+        notify("{} does not want Rando Cardrissian to play.".format(me))
+        setGlobalVariable("rando", "False")
+
 selectColor = '#f8359a'
 
 currentQuestion = None
@@ -123,6 +133,13 @@ def finalize(card, x = 0, y = 0):
                         loadedCards.insert(n, hclist)
                 else:
                     tardyness += ", {}".format(p)
+        randoCheck = getGlobalVariable("rando")
+        if randoCheck == "True":
+            hclist = []
+            for loop in range(0, int(card.Answers)):
+                hclist.append("rando")
+            n = rnd(0, len(loadedCards))
+            loadedCards.insert(n, hclist)
         if tardyness != "":
             notify("The Card Czar is growing impatient{}.".format(tardyness))
             return
@@ -134,7 +151,15 @@ def finalize(card, x = 0, y = 0):
             ycount = 0
             xcount += 75
             for c in answerList:
-                owners[c] = c.controller
+                if c == "rando":
+                    if len(me.Answers) == 0:
+                        if len(shared.Answers) == 0: break
+                        c = shared.Answers[rnd(0,len(shared.Answers) - 1)]
+                    else:
+                        c = me.Answers[rnd(0,len(me.Answers) - 1)]
+                    owners[c] = c.owner
+                else:
+                    owners[c] = c.controller
                 c.moveToTable(xcount, ycount, False)
                 c.setController(me)
                 ycount += 100
@@ -146,7 +171,10 @@ def finalize(card, x = 0, y = 0):
             return
         notify("The Card Czar has chosen {}".format(card))
         currentQuestion.moveTo(owners[card].piles['Score Pile'])
-        notify("{} gets the Awesome Point.".format(owners[card]))
+        if owners[card].name == "Global":
+            notify("Rando gets the Awesome Point ({} points).".format(len(shared.piles['Score Pile'])))
+        else:
+            notify("{} gets the Awesome Point.".format(owners[card]))
         for c in table:
             c.moveTo(c.owner.Discard)
         currentQuestion = None
