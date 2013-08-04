@@ -157,7 +157,7 @@ def finalize(card, x = 0, y = 0):
                         c = shared.Answers[rnd(0,len(shared.Answers) - 1)]
                     else:
                         c = me.Answers[rnd(0,len(me.Answers) - 1)]
-                    owners[c] = c.owner
+                    owners[c] = "rando"
                 else:
                     owners[c] = c.controller
                 c.moveToTable(xcount, ycount, False)
@@ -170,10 +170,11 @@ def finalize(card, x = 0, y = 0):
             whisper("Cannot find the active Question card...?")
             return
         notify("The Card Czar has chosen {}".format(card))
-        currentQuestion.moveTo(owners[card].piles['Score Pile'])
-        if owners[card].name == "Global":
+        if str(owners[card]) == "rando":
+            currentQuestion.moveTo(shared.piles['Score Pile'])
             notify("Rando gets the Awesome Point ({} points).".format(len(shared.piles['Score Pile'])))
         else:
+            currentQuestion.moveTo(owners[card].piles['Score Pile'])
             notify("{} gets the Awesome Point.".format(owners[card]))
         for c in table:
             c.moveTo(c.owner.Discard)
