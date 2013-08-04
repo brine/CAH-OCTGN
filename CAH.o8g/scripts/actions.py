@@ -151,7 +151,7 @@ def finalize(card, x = 0, y = 0):
             ycount = 0
             xcount += 75
             for c in answerList:
-                if c == "rando":
+                if str(c) == "rando":
                     if len(me.Answers) == 0:
                         if len(shared.Answers) == 0: break
                         c = shared.Answers[rnd(0,len(shared.Answers) - 1)]
