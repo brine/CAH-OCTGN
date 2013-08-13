@@ -129,8 +129,8 @@ def finalize(card, x = 0, y = 0):
                     hclist = []
                     for hc in chosencards:
                         hclist.append(hc)
-                        n = rnd(0, len(loadedCards))
-                        loadedCards.insert(n, hclist)
+                    n = rnd(0, len(loadedCards))
+                    loadedCards.insert(n, hclist)
                 else:
                     tardyness += ", {}".format(p)
         randoCheck = getGlobalVariable("rando")
@@ -179,3 +179,4 @@ def finalize(card, x = 0, y = 0):
         for c in table:
             c.moveTo(c.owner.Discard)
         currentQuestion = None
+        owners = {}
