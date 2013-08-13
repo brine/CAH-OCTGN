@@ -5,10 +5,10 @@ def draw(group, x = 0, y = 0):
     mute()
     if len(me.Answers) == 0:
         if len(shared.Answers) == 0: return
-        shared.Answers[rnd(0,len(shared.Answers) - 1)].moveTo(me.hand)
+        shared.Answers.random().moveTo(me.hand)
         notify("{} drew 1 Answer. (shared)".format(me))
     else:
-        me.Answers[rnd(0,len(me.Answers) - 1)].moveTo(me.hand)
+        me.Answers.random().moveTo(me.hand)
         notify("{} drew 1 Answer.".format(me))
 
 def drawfill(group, x = 0, y = 0):
@@ -17,12 +17,12 @@ def drawfill(group, x = 0, y = 0):
     if len(me.Answers) < count:
         if len(shared.Answers) < count: return
         for loop in range(0,count):
-            card = shared.Answers[rnd(0,len(shared.Answers) - 1)]
+            card = shared.Answers.random()
             card.moveTo(me.hand)
         notify("{} drew to 10 (+{}) Answers. (shared)".format(me, count))
     else:
         for loop in range(0,count):
-            card = me.Answers[rnd(0,len(me.Answers) - 1)]
+            card = me.Answers.random()
             card.moveTo(me.hand)
         notify("{} drew to 10 (+{}) Answers.".format(me, count))
 
@@ -79,7 +79,7 @@ def playq(group, x = 0, y = 0):
         qgroup = shared.Questions
     else:
         qgroup = me.Questions
-    card = qgroup[rnd(1,len(qgroup))]
+    card = qgroup.random()
     card.moveToTable(0,0)
     if card.controller != me:
         card.setController(me) ## apparently global decks retain the original person who loaded the deck as controller
@@ -151,12 +151,11 @@ def finalize(card, x = 0, y = 0):
             ycount = 0
             xcount += 75
             for c in answerList:
+                if randoCheck == "True":
+                    randoCard = shared.Answers.random() ## This will cause a delay for all cards entering, not just rando's... to disguise his cards in the process.
                 if str(c) == "rando":
-                    if len(me.Answers) == 0:
-                        if len(shared.Answers) == 0: break
-                        c = shared.Answers[rnd(0,len(shared.Answers) - 1)]
-                    else:
-                        c = me.Answers[rnd(0,len(me.Answers) - 1)]
+                    if len(shared.Answers) == 0: break
+                    c = randoCard
                     owners[c] = "rando"
                 else:
                     owners[c] = c.controller
