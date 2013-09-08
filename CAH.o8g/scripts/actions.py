@@ -149,6 +149,14 @@ def finalize(card, x = 0, y = 0):
                     loadedCards.insert(n, hclist)
                 else:
                     tardyness += ", {}".format(p)
+        if tardyness != "":
+            notify("The Card Czar is growing impatient{}.".format(tardyness))
+            return
+        if table.isTwoSided() and annoyingReminder:
+            notify("This game works better when 'Use Two-Sided Table' is turned off.  Next time, don't forget to uncheck it!")
+            annoyingReminder = False
+## If all players are ready, start processing
+        ## Load Rando's cards
         randoCheck = getGlobalVariable("rando")
         if randoCheck == "True":
             hclist = []
@@ -156,22 +164,15 @@ def finalize(card, x = 0, y = 0):
                 hclist.append("rando")
             n = rnd(0, len(loadedCards))
             loadedCards.insert(n, hclist)
-        if tardyness != "":
-            notify("The Card Czar is growing impatient{}.".format(tardyness))
-            return
-        if table.isTwoSided() and annoyingReminder:
-            notify("This game works better when 'Use Two-Sided Table' is turned off.  Next time, don't forget to uncheck it!")
-            annoyingReminder = False
+        ## Start dumping all the loaded cards onto the table
         xcount = 0
         for answerList in loadedCards:
             ycount = 0
             xcount += 75
             for c in answerList:
-                if randoCheck == "True":
-                    randoCard = shared.Answers.random() ## This will cause a delay for all cards entering, not just rando's... to disguise his cards in the process.
                 if str(c) == "rando":
                     if len(shared.Answers) == 0: break
-                    c = randoCard
+                    c = shared.Answers[0]
                     owners[c] = "rando"
                 else:
                     owners[c] = c.controller
