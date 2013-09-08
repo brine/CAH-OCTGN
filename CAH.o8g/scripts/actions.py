@@ -1,30 +1,49 @@
 
 import re
 
+#---------------
+# Events
+#---------------
+
+def shuffleDeck(player, groups):
+    mute()
+    if player == me:
+        for group in groups:
+            pile = Pile(group._id, group.name, group.player)
+            pile.shuffle()
+            if pile.player == me:
+                notify("{} shuffles their {}.".format(me, pile.name))
+            else:
+                notify("{} shuffles the shared {}.".format(me, pile.name))
+
+##The CAH game def allows players to create their own personal decks, as well as global/shared decks.
+##All draw-based functions will draw from the personal deck before it draws from the global deck.
+
+def genericDraw(type):
+    mute()
+    if len(me.piles[type]) == 0:
+        if len(shared.piles[type]) == 0:
+            return
+        shared.piles[type][0].moveTo(me.hand)
+        return True
+    me.piles[type][0].moveTo(me.hand)
+    return False
+
 def draw(group, x = 0, y = 0):
     mute()
-    if len(me.Answers) == 0:
-        if len(shared.Answers) == 0: return
-        shared.Answers.random().moveTo(me.hand)
-        notify("{} drew 1 Answer. (shared)".format(me))
-    else:
-        me.Answers.random().moveTo(me.hand)
-        notify("{} drew 1 Answer.".format(me))
+    shared = genericDraw('Answers')
+    if shared != None:
+        notify("{} drew 1 Answer.{}".format(me, ' (shared)' if shared == True else ''))
 
 def drawfill(group, x = 0, y = 0):
     mute()
-    count = 10 - len(me.hand)
-    if len(me.Answers) < count:
-        if len(shared.Answers) < count: return
-        for loop in range(0,count):
-            card = shared.Answers.random()
-            card.moveTo(me.hand)
-        notify("{} drew to 10 (+{}) Answers. (shared)".format(me, count))
-    else:
-        for loop in range(0,count):
-            card = me.Answers.random()
-            card.moveTo(me.hand)
-        notify("{} drew to 10 (+{}) Answers.".format(me, count))
+    loopCount = 10 - len(me.hand)
+    drawCount = 0
+    for x in range(0, loopCount):
+        shared = genericDraw('Answers')
+        if shared != None:
+            drawCount += 1
+    notify("{} drew to {} (+{}) Answers.{}".format(me, len(me.hand), drawCount, ' (shared)' if shared == True else ''))
 
 def discard(card, x = 0, y = 0):
     mute()
@@ -32,10 +51,7 @@ def discard(card, x = 0, y = 0):
     card.isFaceUp = True
     rnd(10,100)
     card.moveTo(owner.Discard)
-    if owner == shared:
-        notify("{} confesses ignorance for not understanding {} (shared)".format(me, card))
-    else:
-        notify("{} confesses ignorance for not understanding {}".format(me, card))
+    notify("{} confesses ignorance for not understanding {}.{}".format(me, card, ' (shared)' if owner == shared else ''))
 
 def lookup(card, x = 0, y = 0):
     mute()
