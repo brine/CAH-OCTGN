@@ -95,7 +95,7 @@ def playq(group, x = 0, y = 0):
         qgroup = shared.Questions
     else:
         qgroup = me.Questions
-    card = qgroup.random()
+    card = qgroup[0]
     card.moveToTable(0,0)
     if card.controller != me:
         card.setController(me) ## apparently global decks retain the original person who loaded the deck as controller
