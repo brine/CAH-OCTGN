@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="7148fd28-4595-455f-8d4f-59a1643c27c9" shared="true" >
+<section name="Answers">
+
+<card qty="1" id="547cc6f8-a48d-4e7d-96b5-7a4de775d77b" />
+<card qty="1" id="983eda62-9b0b-406d-9be0-90186aa3f280" />
+<card qty="1" id="11d6c83a-2ed9-43ff-801c-ab61aa4fa689" />
+<card qty="1" id="29773e40-31e2-4cf1-8290-a8bdc1b9fb2e" />
+<card qty="1" id="135a503a-4277-43fd-a88f-9f86af19e585" />
+<card qty="1" id="62c529ae-62ac-4fc2-93e1-5067c601e7e8" />
+<card qty="1" id="8f94b71d-c3c5-4d0b-b3f7-c6a92ad1244b" />
+<card qty="1" id="bb1de4cb-46a1-47af-8a25-28f97239a92d" />
+<card qty="1" id="cb320782-09d0-43a9-8c4f-87b5565f2a2c" />
+<card qty="1" id="afd5c122-a2f9-4882-88fb-f8dd165457a0" />
+<card qty="1" id="c1599cac-303a-419e-ace8-759db88d92ee" />
+<card qty="1" id="11d51de9-9780-4d90-b309-72c6e061a8ba" />
+<card qty="1" id="8fbe4dc2-89f1-4faa-b317-00c49cdba2fa" />
+<card qty="1" id="98f7f9a3-3ab0-4fd7-ae3c-59c2f30866cd" />
+<card qty="1" id="04983e83-882b-4472-951c-b9b8fc36e01d" />
+<card qty="1" id="790628a4-e9a1-4d5e-8fcd-8d22c582fabb" />
+<card qty="1" id="877ec16a-96cf-415c-882c-88902b1d320c" />
+<card qty="1" id="42f11840-cd2c-4e76-8004-cea8a7fd6ac6" />
+<card qty="1" id="0f167b34-e700-4738-9e13-d0f4be4e95ed" />
+<card qty="1" id="eafd67a2-0ec8-46ea-86ba-69e1b1831ec3" />
+<card qty="1" id="a7dc79ea-b96a-4a4a-a72e-cbb29773b671" />
+<card qty="1" id="5d94b3b1-ccc7-4b19-8e08-24e600d33cc4" />
+
+</section>
+<section name="Questions">
+
+<card qty="1" id="993b1682-6e5c-4a57-95be-aefa5efab10e" />
+<card qty="1" id="069f5123-61e9-44d2-bb34-050df7dad150" />
+<card qty="1" id="0d6fa861-f485-4d38-8a21-9b5e61d89e7f" />
+<card qty="1" id="1c30a001-9879-44b2-b96d-25548d7e669c" />
+<card qty="1" id="3a42ca60-2560-46cd-98eb-72326fcd2275" />
+<card qty="1" id="30daa0b6-4918-4dfc-a9d2-03de34d2b6ac" />
+<card qty="1" id="c0b22cee-7ecb-46ec-b91d-f5f93c582551" />
+<card qty="1" id="cb77b0e6-b860-4fbd-a321-fb94d141dde8" />
+<card qty="1" id="710a935d-e69d-4201-8d54-77543451d916" />
+<card qty="1" id="0c091a95-8c55-4329-98da-67cc14005f6a" />
+
+</section>
+</deck>

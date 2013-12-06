@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="7148fd28-4595-455f-8d4f-59a1643c27c9" shared="true" >
+<section name="Answers">
+
+<card qty="1" id="1b52bf88-a07a-401b-9c72-3401077f89a8" />
+<card qty="1" id="0b339849-a092-4a37-b50f-1040d4efb202" />
+<card qty="1" id="75dbc775-9be4-4372-8bbf-dd9aad119d26" />
+<card qty="1" id="a2411af8-740d-4fda-baae-a839f4672c4b" />
+<card qty="1" id="15b229b3-05e5-438d-9a99-6310d75a6ce4" />
+<card qty="1" id="4ac772ec-bf32-4871-8558-bf678298be08" />
+<card qty="1" id="f18417bb-43d4-409d-8a20-effb986d87c1" />
+<card qty="1" id="eb49a464-3d39-4886-8191-88f147cb9706" />
+<card qty="1" id="98397ff2-184c-452f-95a5-d3997e12b7f0" />
+<card qty="1" id="166858b5-85d7-440f-966c-f19bffd9e713" />
+<card qty="1" id="1d8d97ba-ec18-4a1e-8e14-b6e9e0747be1" />
+<card qty="1" id="ce27710b-0199-4987-9593-51df02653f46" />
+<card qty="1" id="51ae78a1-30fa-483c-b1d7-eb0c01daf3b7" />
+<card qty="1" id="01fd77e0-63fc-496d-ac29-e715929c40ab" />
+<card qty="1" id="7e03fdb2-479f-4f66-a136-df8230d72040" />
+<card qty="1" id="278100b3-c0d5-428b-b087-b277c367312e" />
+<card qty="1" id="2228f792-88a9-4300-8c98-f8018b652ec2" />
+<card qty="1" id="d7e3ea71-33c7-41fd-94e9-b49db411d94f" />
+<card qty="1" id="bbe00bc7-1d79-48dc-b884-c8a55d89a5f3" />
+<card qty="1" id="1c2bd1ee-6e19-4c6d-8f05-a54c6924297f" />
+<card qty="1" id="17ad01f5-bb79-41b3-ad61-b9c2210e644b" />
+<card qty="1" id="c6834e1f-d6dc-4881-b211-1e7a285554a9" />
+<card qty="1" id="46798a94-2d70-41f5-959e-d0b60e1fe101" />
+
+</section>
+<section name="Questions">
+
+<card qty="1" id="d1679088-a621-40e7-828a-31d482fac465" />
+<card qty="1" id="b3f9b56e-f5e7-4fac-a6ac-477b9a2d60ea" />
+<card qty="1" id="7aa00da1-bf62-400c-83b6-d381314770e6" />
+<card qty="1" id="20077b2a-34ca-4e2d-bdda-a88d99612565" />
+<card qty="1" id="004bc161-266f-4136-b8e1-ea7161a71632" />
+<card qty="1" id="07c72546-035b-438a-b534-466cab7a6795" />
+<card qty="1" id="846275e0-0e9f-4ffe-bb49-51f999888cd9" />
+
+</section>
+</deck>
