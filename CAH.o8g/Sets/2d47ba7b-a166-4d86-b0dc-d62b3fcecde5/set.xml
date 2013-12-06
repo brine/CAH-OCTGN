@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Holiday Edition" id="2d47ba7b-a166-4d86-b0dc-d62b3fcecde5" gameId="7148fd28-4595-455f-8d4f-59a1643c27c9" gameVersion="1.0.0" version="1.0">
+	<cards>
+<card name="A Christmas stocking full of coleslaw." id="1b52bf88-a07a-401b-9c72-3401077f89a8"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A Hungry-Man Frozen Christmas Dinner for One." id="0b339849-a092-4a37-b50f-1040d4efb202"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A toxic family environment." id="75dbc775-9be4-4372-8bbf-dd9aad119d26"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A visually arresting turtleneck." id="a2411af8-740d-4fda-baae-a839f4672c4b"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Another shitty year." id="15b229b3-05e5-438d-9a99-6310d75a6ce4"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Clearing a bloody path through Walmart with a scimitar." id="4ac772ec-bf32-4871-8558-bf678298be08"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Eating an entire snowman." id="f18417bb-43d4-409d-8a20-effb986d87c1"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Elf cum." id="eb49a464-3d39-4886-8191-88f147cb9706"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Fucking up &quot;Silent Night&quot; in front of 300 parents." id="98397ff2-184c-452f-95a5-d3997e12b7f0"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Gift-wrapping a live hamster." id="166858b5-85d7-440f-966c-f19bffd9e713"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Immaculate conception." id="1d8d97ba-ec18-4a1e-8e14-b6e9e0747be1"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Krampus, the Austrian Christmas monster." id="ce27710b-0199-4987-9593-51df02653f46"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Mall Santa." id="51ae78a1-30fa-483c-b1d7-eb0c01daf3b7"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="My hot cousin." id="01fd77e0-63fc-496d-ac29-e715929c40ab"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Pretending to be happy." id="7e03fdb2-479f-4f66-a136-df8230d72040"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Santa's heavy sack." id="278100b3-c0d5-428b-b087-b277c367312e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Several intertwining love stories featuring Hugh Grant." id="2228f792-88a9-4300-8c98-f8018b652ec2"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Socks." id="d7e3ea71-33c7-41fd-94e9-b49db411d94f"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Space Jam on VHS." id="bbe00bc7-1d79-48dc-b884-c8a55d89a5f3"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Taking down Santa with a surface-to-air missile." id="1c2bd1ee-6e19-4c6d-8f05-a54c6924297f"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Star Wars Holiday Special." id="17ad01f5-bb79-41b3-ad61-b9c2210e644b"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The tiny, calloused hands of the Chinese children that made this card." id="c6834e1f-d6dc-4881-b211-1e7a285554a9"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Whatever Kwanzaa is supposed to be about." id="46798a94-2d70-41f5-959e-d0b60e1fe101"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+
+<card name="After blacking out during New Year's Eve, I was awoken by ______." id="d1679088-a621-40e7-828a-31d482fac465"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="Every Christmas, my uncle gets drunk and tells the story about ______." id="b3f9b56e-f5e7-4fac-a6ac-477b9a2d60ea"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="Jesus is ______." id="7aa00da1-bf62-400c-83b6-d381314770e6"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="On the third day of Christmas, my true love gave to me: three French hens, two turtle doves, and ______." id="20077b2a-34ca-4e2d-bdda-a88d99612565"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="This holiday season, Tim Allen must overcome his fear of ______ to save Christmas." id="004bc161-266f-4136-b8e1-ea7161a71632"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="Wake up, America. Christmas is under attack by secular liberals and their ______." id="07c72546-035b-438a-b534-466cab7a6795"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="What keeps me warm during the cold, cold winter?" id="846275e0-0e9f-4ffe-bb49-51f999888cd9"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>	
+	</cards>
+</set>

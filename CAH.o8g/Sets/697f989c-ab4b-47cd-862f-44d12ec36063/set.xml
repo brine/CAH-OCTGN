@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Canadian Expansion" id="697f989c-ab4b-47cd-862f-44d12ec36063" gameId="7148fd28-4595-455f-8d4f-59a1643c27c9" gameVersion="1.0.0" version="1.0">
+	<cards>
+<card name="After unifying the GST and PST the Government can now afford to provide ______ for ______." id="993b1682-6e5c-4a57-95be-aefa5efab10e"><property name="Type" value="Q" /><property name="Answers" value="2" /></card>
+<card name="If ______ came in two-fours Canada would be more ______?" id="069f5123-61e9-44d2-bb34-050df7dad150"><property name="Type" value="Q" /><property name="Answers" value="2" /></card>
+<card name="In an attempt to reach a wider audience, the Royal Ontario Museum has opened an interactive exhibit on ______." id="0d6fa861-f485-4d38-8a21-9b5e61d89e7f"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="In the next Bob and Doug McKenzie adventure, they have to find ______ to uncover a sinister plot involving ______ and ______." id="1c30a001-9879-44b2-b96d-25548d7e669c"><property name="Type" value="Q" /><property name="Answers" value="3" /></card>
+<card name="In Vancouver it is now legal to ______." id="3a42ca60-2560-46cd-98eb-72326fcd2275"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="Air Canada guidelines now prohibit ______ on airplanes." id="30daa0b6-4918-4dfc-a9d2-03de34d2b6ac"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="CTV presents ______, the story of ______." id="c0b22cee-7ecb-46ec-b91d-f5f93c582551"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="O Canada, we stand on guard for ______." id="cb77b0e6-b860-4fbd-a321-fb94d141dde8"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="The Royal Ontario Museum has just opened an interactive exhibit on ______" id="710a935d-e69d-4201-8d54-77543451d916"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+<card name="What's the Canadian government using to inspire rural students to succeed?" id="0c091a95-8c55-4329-98da-67cc14005f6a"><property name="Type" value="Q" /><property name="Answers" value="1" /></card>
+
+<card name="A Molson muscle." id="547cc6f8-a48d-4e7d-96b5-7a4de775d77b"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="A Tim Hortons franchise." id="983eda62-9b0b-406d-9be0-90186aa3f280"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="An icy handjob from an Edmonton hooker." id="11d6c83a-2ed9-43ff-801c-ab61aa4fa689"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Being Canadian." id="29773e40-31e2-4cf1-8290-a8bdc1b9fb2e"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Burning down the White House." id="135a503a-4277-43fd-a88f-9f86af19e585"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Canada: America's hat." id="62c529ae-62ac-4fc2-93e1-5067c601e7e8"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Don Cherrys wardrobe." id="8f94b71d-c3c5-4d0b-b3f7-c6a92ad1244b"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Heritage minutes." id="bb1de4cb-46a1-47af-8a25-28f97239a92d"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Homo milk." id="cb320782-09d0-43a9-8c4f-87b5565f2a2c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Mr. Dressup." id="afd5c122-a2f9-4882-88fb-f8dd165457a0"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Naked News." id="c1599cac-303a-419e-ace8-759db88d92ee"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Newfies." id="11d51de9-9780-4d90-b309-72c6e061a8ba"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Poutine." id="8fbe4dc2-89f1-4faa-b317-00c49cdba2fa"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Schmirler the Curler." id="98f7f9a3-3ab0-4fd7-ae3c-59c2f30866cd"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Snotsicles." id="04983e83-882b-4472-951c-b9b8fc36e01d"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Stephen Harper." id="790628a4-e9a1-4d5e-8fcd-8d22c582fabb"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Syrupy sex with a maple tree." id="877ec16a-96cf-415c-882c-88902b1d320c"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="Terry Fox's prosthetic leg." id="42f11840-cd2c-4e76-8004-cea8a7fd6ac6"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Famous Five." id="0f167b34-e700-4738-9e13-d0f4be4e95ed"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Front de Libération du Québec." id="eafd67a2-0ec8-46ea-86ba-69e1b1831ec3"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Official Languages Act. La Loi sur les langues officielles." id="a7dc79ea-b96a-4a4a-a72e-cbb29773b671"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+<card name="The Royal Canadian Mounted Police." id="5d94b3b1-ccc7-4b19-8e08-24e600d33cc4"><property name="Type" value="A" /><property name="Answers" value="0" /></card>
+
+</cards>
+</set>
